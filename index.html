@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>markup-2018q3</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <script>
+        function changeSlider(id) {
+            let current;
+            switch (id) {
+              case"slide-dot-1": current = "slide-1" ;
+              break;
+              case"slide-dot-2": current = "slide-2" ;
+              break;
+              case"slide-dot-3": current = "slide-3" ;
+              break;
+            }
+            document.getElementById("slide").className = current;
+        }
+    </script>
+</head>
+
+<body>
+    <a name="home"></a>
+    <header>
+        <div class="header-section">
+            <section class="logo-section">
+                <h1>ghost host</h1>
+                <img src="./img/logo.png" alt="logo">
+
+            </section>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#domain">Domain</a>
+                <a href="#hosting">Hosting</a>
+                <a href="#client">Client</a>
+                <a href="#blog">Blog</a>
+                <a href="#support">Support</a>
+            </nav>
+        </div>
+        <div class="header-text">
+            <h2>HELLO!</h2>
+            <p>We love our work... <br> And We're taking it seriously...</p>
+        </div>
+        <section class="login-section">
+            <div class="login">
+                <a href="login.html">LOGIN</a>
+            </div>
+            <div class="triangle"></div>
+            <div class="register">
+                <a href="register.html">REGISTER</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="domain">
+            <a name="domain"></a>
+            <p class="domain-qestion">  Would you like to buy a new domain ?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id
+                molestier.</p>
+            <form class="domain-form">
+                <div>www.</div>
+                <input type="text" value="What do you want?" />
+                <select name="domains">
+                    <option value=".com">.com</option>
+                    <option value=".net">Saab</option>
+                    <option value=".org">Fiat</option>
+                </select>
+            </form>
+            <div class="domain-table">
+                <div><div>.COM</div></div>
+                <div>1 Year</div>
+                <div>$9.00 USD</div>
+                <div>Transfer Price No</div>
+
+                <div>.NET</div>
+                <div>1 Year</div>
+                <div>$9.00 USD</div>
+                <div>Transfer Price No</div>
+            </div>
+        </section>
+        <section class="packages-section">
+
+            <div class="package-items">
+                <div class="package-item color-yelow">
+                    <img src="./img/package-basic.png" alt="icon">
+                    <p><b>BASIC PACKAGE</b></p>
+                    <div class="package-feature-table">
+                        <p class="feature">Disk Space(GB)</p>
+                        <p>50</p>
+                        <p class="feature">Subdomains</p>
+                        <p>50</p>
+                        <p class="feature">Transfer (GB)</p>
+                        <p>50</p>
+                        <p class="feature">Data bases</p>
+                        <p>1</p>
+                        <p class="feature">Dashbords</p>
+                        <p>1</p>
+                        <p class="feature">Control Panel & FTP</p>
+                        <p></p>
+                        <p class="feature">Free Support</p>
+                        <p></p>
+                    </div>
+                    <div class="package-price">
+                        <p><b><sup>$</sup>15</b><sub>/Mo</sub></p>
+                    </div>
+                    <button>SELECT PLAN</button>
+                </div>
+                <div class="package-item color-grey">
+                    <img src="./img/package-normal.png" alt="icon">
+                    <p class="bold">BASIC PACKAGE</p>
+                    <div class="package-feature-table">
+                        <p class="feature">Disk Space(GB)</p>
+                        <p>50</p>
+                        <p class="feature">Subdomains</p>
+                        <p>50</p>
+                        <p class="feature">Transfer (GB)</p>
+                        <p>50</p>
+                        <p class="feature">Data bases</p>
+                        <p>1</p>
+                        <p class="feature">Dashbords</p>
+                        <p>1</p>
+                        <p class="feature">Control Panel & FTP</p>
+                        <p></p>
+                        <p class="feature">Free Support</p>
+                        <p></p>
+                    </div>
+                    <div class="package-price">
+                        <p><b><sup>$</sup>15</b><sub>/Mo</sub></p>
+                    </div>
+                    <button>SELECT PLAN</button>
+                </div>
+                <div class="package-item color-red">
+                    <img src="./img/package-big.png" alt="icon">
+                    <p class="bold">BASIC PACKAGE</p>
+                    <div class="package-feature-table">
+                        <p class="feature">Disk Space(GB)</p>
+                        <p>50</p>
+                        <p class="feature">Subdomains</p>
+                        <p>50</p>
+                        <p class="feature">Transfer (GB)</p>
+                        <p>50</p>
+                        <p class="feature">Data bases</p>
+                        <p>1</p>
+                        <p class="feature">Dashbords</p>
+                        <p>1</p>
+                        <p class="feature">Control Panel & FTP</p>
+                        <p></p>
+                        <p class="feature">Free Support</p>
+                        <p></p>
+                    </div>
+                    <div class="package-price">
+                        <p><b><sup>$</sup>15</b><sub>/Mo</sub></p>
+                    </div>
+                    <button>SELECT PLAN</button>
+                </div>
+                <div class="package-item color-green">
+                    <img src="./img/package-biggest.png" alt="icon">
+                    <p class="bold">BASIC PACKAGE</p>
+                    <div class="package-feature-table">
+                        <p class="feature">Disk Space(GB)</p>
+                        <p>50</p>
+                        <p class="feature">Subdomains</p>
+                        <p>50</p>
+                        <p class="feature">Transfer (GB)</p>
+                        <p>50</p>
+                        <p class="feature">Data bases</p>
+                        <p>1</p>
+                        <p class="feature">Dashbords</p>
+                        <p>1</p>
+                        <p class="feature">Control Panel & FTP</p>
+                        <p></p>
+                        <p class="feature">Free Support</p>
+                        <p></p>
+                    </div>
+                    <div class="package-price">
+                        <p><b><sup>$</sup>15</b><sub>/Mo</sub></p>
+                    </div>
+                    <button>SELECT PLAN</button>
+                </div>
+            </div>
+        </section>
+        <section class="about-section" name="aboutus">
+            <div class="about-text">
+                <p><b>About</b> Us</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent feugiat eget diam sit amet molestie.Curabitur.
+                    ut ipsum bibendum tortor lacinia fermentum nec joeıa.
+                    Mauris at augue libero. Fusce posuere, sapien nec poır.
+                    Uaee augsuada sed mauris in tincidunt...
+                </p>
+            </div>
+            <div class="team-member">
+                <img src="./img/designer1.png" alt="photo of worker">
+                <p><b>Jonny Doe</b></p>
+                <p> Designer</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://youtube.com/"><i class="fas fa-link"></i></a>
+                    <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <I></I>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./img/designer2.png" alt="photo of worker">
+                <p><b>Jonny Doe</b></p>
+                <p> Designer</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://youtube.com/"><i class="fas fa-link"></i></a>
+                    <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="./img/designer3.png" alt="photo of worker">
+                <p><b>Jonny Doe</b></p>
+                <p> Designer</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://youtube.com/"><i class="fas fa-link"></i></a>
+                    <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+        </section>
+        <section class="comments-section">
+            <a name="blog"></a>
+            <div id="slide" class="slide-1">
+                <div class="comments-text-container">
+                    <div class="slide-text">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
+                        Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”
+                    </div>
+                    <div class="name-and-radio-buttons">
+                        <p><b>John Doe</b></p>
+                        <div class="radio-buttons">
+                            <input id="slide-dot-1" type="radio" name="slides" onclick="changeSlider(id)" checked>
+                            <input id="slide-dot-2" type="radio" name="slides" onclick="changeSlider(id)">
+                            <input id="slide-dot-3" type="radio" name="slides" onclick="changeSlider(id)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="functions-section">
+            <article>
+                <a href=""><img src="./img/function-fast-server.png"></a>
+                <p class="bold">Fast Server</p>
+                <p>Nulla dapibus neque augue, quis<br>
+                    tincidunt tortor aliquam vitae.</p>
+            </article>
+            <article>
+                <a href=""><img src="./img/function-cloud-servers.png"></a>
+                <p class="bold">Cloud Server</p>
+                <p>Nulla dapibus neque augue, quis<br>
+                    tincidunt tortor aliquam vitae.</p>
+            </article>
+            <article>
+                <a href=""><img src="./img/function-domain-transfers.png"></a>
+                <p class="bold">Domain Transfer</p>
+                <p>Nulla dapibus neque augue, quis<br>
+                    tincidunt tortor aliquam vitae.</p>
+            </article>
+            <article>
+                <a href=""><img src="./img/function-live-suppot.png"></a>
+                <p class="bold">Live Support</p>
+                <p>Nulla dapibus neque augue, quis<br>
+                    tincidunt tortor aliquam vitae.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-header">
+                <section class="logo-section">
+                    <img src="./img/logo.png" alt="logo">
+                </section>
+                <nav>
+                    <a href="#home">HOME</a>
+                    <a href="#aboutus">ABOUT US</a>
+                    <a href="#blog">BLOG</a>
+                    <a href="#policy">POLICY</a>
+                    <a href="#contact">CONTACT</a>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-text">
+                    Lorem ipsum dolor sit amet, consecteteeseurı <br>
+                    adipiscing elit. Donec mollis commodoeesene <br>
+                    que, non commodo risus volutpat vel. <br>
+
+                    Design by <b>Mert Can Eyriyer</b>.
+                </div>
+                <div class="footer-links">
+                    <a href="/"> > Support</a>
+                    <a href="/"> > Account</a>
+                    <a href="/"> > Product Catalog</a>
+                    <a href="/"> > Shortcodes</a>
+                    <a href="/"> > Site Map</a>
+                    <a href="/"> > Whoise Search</a>
+                    <a href="/"> > Web Mail</a>
+                    <a href="/"> > Find Domain</a>
+                </div>
+                <div class="footer-contacts">
+                    <a href="mailto:informationteam@ghosthost.com"><img src="./img/letter-icon.png" alt="mail icon">informationteam@ghosthost.com</a> <br>
+                    <a href="tel:000000"><img src="./img/phone-icon.png" alt="phone icon">  0000-0000-0000</a>
+                    <p>Lorem Ipsum Street, Lorem Avenue,
+                        Lorem Ipsum</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
